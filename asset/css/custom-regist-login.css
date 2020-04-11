@@ -1,0 +1,96 @@
+body{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #1d1d1c;
+  margin: 0px;
+}
+
+h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.card{
+  border-radius: 5px;
+  border: 1px solid #9E9EA7;
+  /* border: none; */
+  margin-top: 24px;
+}
+
+.card-body{
+  padding: 32px 24px 40px 24px;
+}
+
+.form-group-1{
+  margin-top: 32px;
+}
+
+.form-group-2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form-group-3{
+  margin-bottom: 32px;
+}
+
+.form-control {
+  background: #F7F7F7;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #BBC1E2;
+}
+
+.form-control:focus {
+  border: 1px solid #BBC1E2;
+  border-radius: 5px;
+}
+
+::placeholder{
+  color: #9E9EA7;
+}
+
+.terms{
+  font-weight: normal;
+  font-size: 11px;
+  
+}
+
+.btn{
+  background: #4156A3;
+  border:none;
+  border-radius: 5px;
+  padding: 14px 30px 14px 30px;
+  margin-left: 24px;
+  
+}
+
+.btn:hover{
+  background: #33468B;
+}
+
+.btn-kembali{
+  color: #9E9EA7;
+}
+
+.btn-kembali:hover{
+  color: #747480;
+  text-decoration: none;
+}
+
+.btn-masuk-2{
+  color: #1d1d1c;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.btn-masuk-2:hover{
+  color: #33468B;
+  text-decoration: none;
+}
+
+.bg-1 img{
+  width: 1366px;
+  height: 667px;
+}

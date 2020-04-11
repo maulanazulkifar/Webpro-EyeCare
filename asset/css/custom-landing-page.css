@@ -1,0 +1,43 @@
+body{
+  font-family: Montserrat;
+  /* font-size: 16px; */
+  color: #1d1d1c;
+  margin: 0px;
+}
+
+h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+h2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.subtext{
+  width: 455px;
+}
+
+.btn-primary{
+  background: #4156A3;
+  border:none;
+  border-radius: 5px;
+  padding: 14px 30px 14px 30px;
+}
+
+.btn-primary:hover{
+  background: #33468B;
+}
+
+.panah{
+  margin-left: 8px;
+}
