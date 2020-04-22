@@ -1,0 +1,100 @@
+body{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #1c1d1d;
+  /* color: blue; */
+  margin: 0px;
+  cursor: default;
+}
+
+h1{
+ font-style: normal;
+ font-weight: 600;
+ font-size: 48px;
+}
+  
+h2{
+ font-style: normal;
+ font-weight: 600;
+ font-size: 40px;
+ }
+  
+h3{
+ font-style: normal;
+ font-weight: 600;
+ font-size: 32px;
+}
+  
+.subtext{
+ width: 455px;
+}
+
+.list-dokter{
+  margin-top: 80px;
+}
+
+.card{
+  border: none;
+  border-radius: 10px;
+  box-shadow: -1px 1px 10px rgba(28, 29, 29, 0.3);
+  /* height: 342px; */
+}
+
+.card:hover{
+  border: none;
+  border-radius: 10px;
+  box-shadow: -1px 1px 20px rgba(28, 29, 29, 0.3);
+}
+
+.card .card-body{
+  padding: 24px 16px 24px 16px;
+}
+
+.card .card-title{
+  font-size: 18px;
+  font-weight: 500;
+  color: #4156A3;
+}
+
+.btn-primary{
+  background: #4156A3;
+  border:none;
+  border-radius: 5px;
+  padding: 14px 30px 14px 30px;
+}
+  
+.btn-primary:hover{
+  background: #33468B;
+}
+
+.footer{
+  margin-top: 160px;
+  background-color: #242A3E;
+  color: #ffffff;
+  padding: 56px 0px 24px 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-menu li{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.footer-sosmed li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer-sosmed img{
+  margin-right: 24px;
+}
+
+.hr-line{
+  border: 0.5px solid white;
+  margin-top: 40px;
+}
