@@ -41,3 +41,35 @@ h3{
 .panah{
   margin-left: 8px;
 }
+
+.footer{
+  margin-top: 160px;
+  background-color: #242A3E;
+  color: #ffffff;
+  padding: 56px 0px 24px 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-menu li{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.footer-sosmed li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer-sosmed img{
+  margin-right: 24px;
+}
+
+.hr-line{
+  border: 0.5px solid white;
+  margin-top: 40px;
+}
