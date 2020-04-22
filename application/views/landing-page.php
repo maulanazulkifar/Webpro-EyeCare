@@ -50,7 +50,44 @@
   </div>
 </section>
 
-
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/images-1eyecare-logo-white.png" alt="Logo Eyecare White"></div>
+      <div class="col-2">
+        <ul class="footer-menu">
+          <li>Tentang Kami</li>
+          <li>Layanan</li>
+          <li>Book Now</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="footer-menu">
+          <li>Kontak Kami</li>
+          <li>Syarat & Ketentuan</li>
+          <li>Kebijakan Privasi</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="footer-sosmed">
+          <li>Ikuti Kami</li>
+          <li>
+            <img src="<?php echo base_url(); ?>asset/image/instagram.png" alt="Instagram icon">
+            <img src="<?php echo base_url(); ?>asset/image/facebook.png" alt="Facebook icon">
+            <img src="<?php echo base_url(); ?>asset/image/twitter.png" alt="Twitter icon">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <hr class="hr-line">
+        <span >&copy; Eyecare 2020</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 <script src="<?php echo base_url() ?>asset/js/bootstrap.js"></script>
 </body>
