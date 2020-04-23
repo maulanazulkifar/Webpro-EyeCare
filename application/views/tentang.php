@@ -14,11 +14,11 @@
     <a href="#"><img src="assets/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link align-self-center" href="landing-page.php">Home</a>
-        <a class="nav-item nav-link active align-self-center" href="tentang.php">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="#">Layanan</a>
-        <a class="nav-item nav-link align-self-center" href="#">Book Now</a>
-        <a class="nav-item nav-link align-self-center" href="#">FAQ</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/welcome/home">Home</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/layanan">Layanan</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/faq">FAQ</a>
       </div>
     </div>
     <div class="d-flex justify-content-end">

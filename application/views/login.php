@@ -16,14 +16,14 @@
       <div class="card position-absolute" style="width: 408px">
         <div class="card-body">
           <h3 class="text-center">Selamat datang kembali di Eyecare</h3>
-          <form action="">
+          <form action="http://localhost/perpustakaan/index.php/C_Login/login">
             <div class="form-group-2">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" Placeholder="jametganggu@gmail.com">
+              <input type="email" class="form-control" id="email" name ="email" Placeholder="jametganggu@gmail.com">
             </div>
             <div class="form-group-3">
               <label for="password">Password</label>
-              <input type="password" class="form-control" id="password" Placeholder="6+ karakter">
+              <input type="password" class="form-control" id="password" name ="password" Placeholder="6+ karakter">
             </div>
             <div class="d-flex justify-content-end">
               <div class="align-self-center"><a href="landing-page.php" class="btn-kembali">Kembali</a></div>
