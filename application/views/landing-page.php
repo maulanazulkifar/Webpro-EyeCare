@@ -17,19 +17,19 @@
     <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/welcome/home">Home</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/tentang">Tentang Kami</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/layanan">Layanan</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/faq">FAQ</a>
       </div>
     </div>
     <div class="d-flex justify-content-end">
       <div class="align-self-center">
         <!-- <a href="login.php" class="btn-masuk">Masuk</a> -->
-        <a href="<?php echo base_url() ?>index.php/welcome/login"><button class="btn btn-masuk" >Masuk</button></a>
+        <a href="<?php echo base_url() ?>index.php/clogin"><button class="btn btn-masuk" >Masuk</button></a>
       </div>
-      <a href="<?php echo base_url() ?>index.php/welcome/regist"><button class="btn btn-primary">Daftar</button></a>
+      <a href="<?php echo base_url() ?>index.php/cregist"><button class="btn btn-primary">Daftar</button></a>
     </div>
   </div>
 </nav>
@@ -41,7 +41,7 @@
         <h2>Eyecare, Klinik mata kepercayaan anda</h2>
         <p class="subtext">Di Klinik kami pasien adalah prioritas utama kami.  Dokter kami adalah para dokter mata terbaik di Indonesia dengan pengalaman bertahun-tahun dalam bidang keahliannya masing-masing.</p>
         <p class="subtext">Dilengkapi dengan teknologi terdepan dalam layanan kesehatan mata di Indonesia.</p>
-        <a href="<?php echo base_url() ?>application/views/book.php"><button class="btn btn-primary ">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
+        <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary ">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
       </div>
       <div class="col">
         <img src="<?php echo base_url(); ?>asset/image/images-1.png" alt="Photo by Daniil Kuželev at Unsplash.com">

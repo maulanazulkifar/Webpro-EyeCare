@@ -26,11 +26,11 @@
               <input type="password" class="form-control" id="password" name ="password" Placeholder="6+ karakter">
             </div>
             <div class="d-flex justify-content-end">
-              <div class="align-self-center"><a href="landing-page.php" class="btn-kembali">Kembali</a></div>
+              <div class="align-self-center"><a href="<?php echo base_url() ?>index.php/welcome" class="btn-kembali">Kembali</a></div>
               <button type="submit" class="btn btn-primary">Masuk</button>
             </div>
             <div class="d-flex justify-content-end">
-              <a href="#" class="btn-masuk-2">Belum punya akun ? Daftar di sini</a>
+              <a href="<?php echo base_url() ?>index.php/cregist" class="btn-masuk-2">Belum punya akun ? Daftar di sini</a>
             </div>
           </form>
         </div>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="<?php echo base_url() ?>asset/bootstrap/bootstrap.css"/>
-  <link rel="stylesheet" href="<?php echo base_url() ?>asset/bootstrap/custom-regist-login.css"/>
+  <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/bootstrap.css"/>
+  <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/custom-regist-login.css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
   <link rel="icon" type="image/ico" href="assets/eyecare-logo-blue.png"/>
   <title>Daftar | Eyecare</title>
@@ -33,17 +33,17 @@
               <p>Dengan mendaftar untuk membuat akun.  Saya menyetujui <strong>Syarat Penggunaan</strong>  dan <strong>Kebijakan Pribadi.</strong></p>
             </div>
             <div class="d-flex justify-content-end">
-              <div class="align-self-center"><a href="landing-page.php" class="btn-kembali">Kembali</a></div>
+              <div class="align-self-center"><a href="<?php echo base_url() ?>index.php/welcome" class="btn-kembali">Kembali</a></div>
               <button type="submit" class="btn btn-primary">Daftar</button>
             </div>
             <div class="d-flex justify-content-end">
-              <a href="#" class="btn-masuk-2">Sudah punya akun ? Masuk di sini</a>
+              <a href="<?php echo base_url() ?>index.php/clogin" class="btn-masuk-2">Sudah punya akun ? Masuk di sini</a>
             </div>
           </form>
         </div>
       </div>
       <div class="bg-1">
-        <img src="assets/bg-1.png" alt="Seharusnya ada background">
+        <img src="<?php echo base_url() ?>asset/image/bg-1.png" alt="Seharusnya ada background">
       </div>
     </div>
   </div>
