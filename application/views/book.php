@@ -45,12 +45,28 @@
           <h2>Buat janji dengan dokter via Online</h2>
           <p class="subtext mt-4">Salah satu keunggulan dari klinik kami yaitu, dapat membuat janji temu dengan dokter tanpa harus datang ke klinik kami.</p>
           <p class="subtext">Anda hanya perlu memilih dokter dan jadwal yang sesuai dengan waktu anda. Lalu datang ke klinik sesuai dengan yang sudah anda tentukan.</p>
+          <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Buat janji sekarang</button></a>
         </div>
       </div>
   </div>
 </section>
 
-<section class="list-dokter">
+<section class="konten" style="margin-top: 80px;">
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-center">
+        <h2 style="">Dokter yang berpengalaman</h2>
+        <p class="subtext mt-4">Di Eyecare Klinik Mata, Anda akan ditangani oleh dokter-dokter spesialis senior mata yang sudah 38 tahun lebih terlatih dan terampil di bidangnya.</p>
+        <p class="subtext">Mereka juga telah difasilitasi oleh alat-alat yang memadai untuk menunjang kerja mereka.</p>
+      </div>
+      <div class="col">
+        <img src="<?php echo base_url(); ?>asset/image/images-3.png" alt="Foto dokter lawak..">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="list-dokter">
   <div class="container">
     <div class="row">
       <div class="col text-center">
@@ -62,7 +78,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body text-center">
-            <img src="<?php echo base_url(); ?>asset/image/dokter-1.png" alt="Foto Dokter">
+            <img src="<//?php echo base_url(); ?>asset/image/dokter-1.png" alt="Foto Dokter">
             <p class="card-title mt-4 mb-3">dr. Uvuvwewewe, SpM</p>
             <p class="card-text mb-2">Senin: 16:00-18:00 WIB</p>
             <p class="card-text mb-2">Kamis: 16:00-18:00 WIB</p>
@@ -73,7 +89,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body text-center">
-            <img src="<?php echo base_url(); ?>asset/image/dokter-2.png" alt="Foto Dokter">
+            <img src="<//?php echo base_url(); ?>asset/image/dokter-2.png" alt="Foto Dokter">
             <p class="card-title mt-4 mb-3">dr. Onyetenyevwe, SpM</p>
             <p class="card-text mb-2">Selasa: 10:00-14:00 WIB</p>
             <p class="card-text mb-2">Rabu: 10:00-14:00 WIB</p>
@@ -84,7 +100,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body text-center">
-            <img src="<?php echo base_url(); ?>asset/image/dokter-3.png" alt="Foto Dokter">
+            <img src="<//?php echo base_url(); ?>asset/image/dokter-3.png" alt="Foto Dokter">
             <p class="card-title mt-4 mb-3">dr. Ugwemubwem, SpM</p>
             <p class="card-text mb-2">Selasa: 09:00-13:00 WIB</p>
             <p class="card-text mb-2">Rabu: 09:00-13:00 WIB</p>
@@ -95,7 +111,7 @@
       <div class="col">
         <div class="card">
           <div class="card-body text-center">
-            <img src="<?php echo base_url(); ?>asset/image/dokter-4.png" alt="Foto Dokter">
+            <img src="<//?php echo base_url(); ?>asset/image/dokter-4.png" alt="Foto Dokter">
             <p class="card-title mt-4 mb-3">dr. Ossas, SpM</p>
             <p class="card-text mb-2">Selasa: 09:00-13:00 WIB</p>
             <p class="card-text mb-2">Rabu: 09:00-13:00 WIB</p>
@@ -104,27 +120,13 @@
         </div>
       </div>
     </div>
-    <!-- <div class="row mt-5">
-      <div class="col">
-        
-      </div>
-      <div class="col">
-
-      </div>
-      <div class="col">
-
-      </div>
-      <div class="col">
-
-      </div>
-    </div> -->
     <div class="row">
       <div class="col text-center">
         <a href="#" class="btn btn-primary mt-5">Buat janji sekarang</a>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="footer">
   <div class="container">
