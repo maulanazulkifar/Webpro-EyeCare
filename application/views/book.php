@@ -20,7 +20,7 @@
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/tentang">Tentang Kami</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/layanan">Layanan</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/welcome/book">Book Now</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/faq">FAQ</a>
       </div>
       </div>
@@ -45,7 +45,7 @@
           <h2>Buat janji dengan dokter via Online</h2>
           <p class="subtext mt-4">Salah satu keunggulan dari klinik kami yaitu, dapat membuat janji temu dengan dokter tanpa harus datang ke klinik kami.</p>
           <p class="subtext">Anda hanya perlu memilih dokter dan jadwal yang sesuai dengan waktu anda. Lalu datang ke klinik sesuai dengan yang sudah anda tentukan.</p>
-          <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Buat janji sekarang</button></a>
+          <a href="<?php echo base_url() ?>index.php/cjanji"><button class="btn btn-primary mt-4">Buat janji sekarang</button></a>
         </div>
       </div>
   </div>
@@ -131,7 +131,7 @@
 <section class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/images-1eyecare-logo-white.png" alt="Logo Eyecare White"></div>
+      <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-white.png" alt="Logo Eyecare White"></div>
       <div class="col-2">
         <ul class="footer-menu">
           <li>Tentang Kami</li>
