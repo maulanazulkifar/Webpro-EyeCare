@@ -42,7 +42,7 @@
 
 <section class="form-data">
   <div class="container">
-     <?php echo form_open('C_janji/input');?>
+     <form action="<?php echo base_url(). 'Cjanji/tambah_aksi'; ?>" method="post">
       <div class="row">
         <div class="col text-center">
           <h2>Silahkan isi form di bawah</h2>
@@ -119,7 +119,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
-    <?php echo form_close();?>
+    </form>
   </div>  
 </section>
   

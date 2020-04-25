@@ -16,7 +16,7 @@
       <div class="card position-absolute" style="width: 408px">
         <div class="card-body">
           <h3 class="text-center">Selamat datang kembali di Eyecare</h3>
-          <form action="http://localhost/perpustakaan/index.php/CLogin/auth">
+          <form action="<?php echo base_url('Clogin/aksi_login'); ?>" method="post">
             <div class="form-group-2">
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" name ="email" Placeholder="jametganggu@gmail.com">
