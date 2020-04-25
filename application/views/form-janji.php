@@ -42,7 +42,7 @@
 
 <section class="form-data">
   <div class="container">
-    <form action="">
+     <?php echo form_open('C_janji/input');?>
       <div class="row">
         <div class="col text-center">
           <h2>Silahkan isi form di bawah</h2>
@@ -53,7 +53,7 @@
         <div class="col d-flex justify-content-center">
         <div class="form-group-1">
           <label for="nama-pasien">Nama Pasien</label>
-          <input type="text" class="form-control" id="nama-pasien" Placeholder="Nama lengkap">
+          <input type="text" name="nama" class="form-control" id="nama-pasien" Placeholder="Nama lengkap">
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
         <div class="col d-flex justify-content-center">
         <div class="form-group-1">
           <label for="usia-pasien">Usia Pasien</label>
-          <input type="text" class="form-control" id="usia-pasien" Placeholder="Contoh: 23 tahun">
+          <input type="text" name="usia" class="form-control" id="usia-pasien" Placeholder="Contoh: 23 tahun">
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
         <div class="col d-flex justify-content-center">
         <div class="form-group-1">
           <label for="no-telp">No. Telfon</label>
-          <input type="text" class="form-control" id="no-telp" Placeholder="Minimal 10 digit">
+          <input type="text" class="form-control" name="telf" id="no-telp" Placeholder="Minimal 10 digit">
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
         <div class="col d-flex justify-content-center">
         <div class="form-group-2">
           <label for="keluhan">Keluhan</label>
-          <textarea name="keluhan-pasien" id="keluhan" class="form-control" rows="10" Placeholder="Tuliskan keluhan anda di sini" style="width:551px;"></textarea>
+          <textarea name="keluhan" id="keluhan" class="form-control" rows="10" Placeholder="Tuliskan keluhan anda di sini" style="width:551px;"></textarea>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@
         <div class="col d-flex justify-content-center">
           <div class="form-group-1">
             <label for="pilih-dokter">Nama Dokter</label>
-            <select class="form-control" id="pilih-dokter">
+            <select class="form-control" id="pilih-dokter" name="dokter">
               <option>-- Silahkan pilih dokter -- </option>
               <option>dr. Uvuvwewewe, SpM</option>
               <option>dr. Onyetenyevwe, SpM</option>
@@ -105,7 +105,7 @@
         <div class="col d-flex justify-content-center ">
           <div class="form-group-1">
             <label for="jadwal-dokter">Jadwal Dokter</label>
-            <select class="form-control" id="jadwal-dokter">
+            <select class="form-control" id="jadwal-dokter" name="jadwal">
               <option>-- Silahkan pilih jadwal --</option>
               <option>Senin: 16:00-18:00 WIB</option>
               <option>Kamis: 16:00-18:00 WIB</option>
@@ -119,7 +119,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
-    </form>
+    <?php echo form_close();?>
   </div>  
 </section>
   
@@ -166,4 +166,5 @@
 
 <script src="<?php echo base_url() ?>asset/js/bootstrap.js"></script>
 </body>
+
 </html>
