@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/bootstrap.css"/>
   <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/custom-navbar.css"/>
-  <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/css/custom-landing-page.css"/>
+  <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/custom-landing-page.css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/ico" href="assets/eyecare-logo-blue.png"/>
+  <link rel="icon" type="image/ico" href="<?php echo base_url(); ?>asset/image/icon-bar.png"/>
   <title>Eyecare - Klinik Mata Kepercayaan Anda</title>
   
 </head>
@@ -49,6 +49,46 @@
     </div>
   </div>
 </section>
-    <script src="<?php echo base_url() ?>asset/js/bootstrap.js"></script>
+
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-white.png" alt="Logo Eyecare White"></div>
+      <div class="col-2">
+        <ul class="footer-menu">
+          <li>Tentang Kami</li>
+          <li>Layanan</li>
+          <li>Book Now</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul class="footer-menu">
+          <li>Kontak Kami</li>
+          <li>Syarat & Ketentuan</li>
+          <li>Kebijakan Privasi</li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="footer-sosmed">
+          <li>Ikuti Kami</li>
+          <li>
+            <img src="<?php echo base_url(); ?>asset/image/instagram.png" alt="Instagram icon">
+            <img src="<?php echo base_url(); ?>asset/image/facebook.png" alt="Facebook icon">
+            <img src="<?php echo base_url(); ?>asset/image/twitter.png" alt="Twitter icon">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <hr class="hr-line">
+        <span >&copy; Eyecare 2020</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script src="<?php echo base_url() ?>asset/js/bootstrap.js"></script>
 </body>
 </html>

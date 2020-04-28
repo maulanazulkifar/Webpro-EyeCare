@@ -27,7 +27,7 @@
     <div class="d-flex justify-content-end">
       <div class="align-self-center">
         <!-- <a href="login.php" class="btn-masuk">Masuk</a> -->
-        <a href="<?php echo base_url('Clogin') ?>"><button class="btn btn-masuk" >Masuk</button></a>
+        <a href="<?php echo base_url('index.php/clogin') ?>"><button class="btn btn-masuk">Masuk</button></a>
       </div>
       <a href="<?php echo base_url() ?>index.php/cregist"><button class="btn btn-primary">Daftar</button></a>
     </div>
