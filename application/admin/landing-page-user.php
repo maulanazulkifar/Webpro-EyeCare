@@ -14,7 +14,7 @@
 <body>
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container">
-    <a href="#"><img src="assets/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
+    <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active align-self-center" href="landing-page.php">Home</a>
@@ -41,10 +41,10 @@
         <h2>Eyecare, Klinik mata kepercayaan anda</h2>
         <p class="subtext">Di Klinik kami pasien adalah prioritas utama kami.  Dokter kami adalah para dokter mata terbaik di Indonesia dengan pengalaman bertahun-tahun dalam bidang keahliannya masing-masing.</p>
         <p class="subtext">Dilengkapi dengan teknologi terdepan dalam layanan kesehatan mata di Indonesia.</p>
-        <a href="regist.php"><button class="btn btn-primary ">Book Now <img class="panah" src="assets/arrow-right.png" alt="Arrow"></button></a>
+        <a href="regist.php"><button class="btn btn-primary ">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png" alt="Arrow"></button></a>
       </div>
       <div class="col">
-        <img src="assets/images-1.png" alt="Photo by Daniil Kuželev at Unsplash.com">
+        <img src="<?php echo base_url(); ?>asset/image/images-1.png" alt="Photo by Daniil Kuželev at Unsplash.com">
       </div>
     </div>
   </div>

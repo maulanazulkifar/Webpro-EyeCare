@@ -16,7 +16,7 @@
       <div class="card position-absolute" style="width: 408px">
         <div class="card-body">
           <h3 class="text-center">Selamat datang kembali di Eyecare</h3>
-          <?php echo form_open("auth/cek_login"); ?>
+         <?php echo form_open("auth/cek_login"); ?>
             <div class="form-group-2">
               <label for="email">Email</label>
               <input type="text" class="form-control" id="email" name="email" Placeholder="jametganggu@gmail.com">
