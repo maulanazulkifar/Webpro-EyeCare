@@ -68,3 +68,14 @@
   color: #747480;
   text-decoration: none;
 }
+
+.navbar .btn-danger{
+  border:none;
+  border-radius: 5px;
+  padding: 14px 30px 14px 30px;
+  margin-left: 24px;
+}
+
+/* .navbar .btn-danger:hover{
+
+} */

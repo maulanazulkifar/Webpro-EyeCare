@@ -25,11 +25,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <div class="align-self-center">
-        <a href="user-profile.php" class="nav-item nav-link align-self-center">Profile</a>
-        <!-- <a href="login.php"><button class="btn btn-masuk">Masuk</button></a> -->
-      </div>
-      <!-- <a href="regist.php"><button class="btn btn-primary">Daftar</button></a> -->
+      <a href=""><button class="btn btn-danger">Logout</button></a>
     </div>
   </div>
 </nav>
