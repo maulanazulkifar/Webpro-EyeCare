@@ -131,17 +131,17 @@
       <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-white.png" alt="Logo Eyecare White"></div>
       <div class="col-2">
         <ul class="footer-menu">
-          <li>Tentang Kami</li>
-          <li>Layanan</li>
-          <li>Book Now</li>
-          <li>FAQ</li>
+          <a href="<?php echo base_url() ?>index.php/tentang" style="color:white">Tentang Kami</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/layanan" style="color:white">Layanan</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/cbook" style="color:white">Book Now</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/faq" style="color:white">FAQ</a>
         </ul>
       </div>
       <div class="col-3">
         <ul class="footer-menu">
           <li>Kontak Kami</li>
           <li>Syarat & Ketentuan</li>
-          <li>Kebijakan Privasi</li>
+          <a href="<?php echo base_url() ?>index.php/kebijakanprivasi" style="color:white">Kebijakan Privasi</a>
         </ul>
       </div>
       <div class="col-4">
@@ -166,5 +166,4 @@
 
 <script src="<?php echo base_url() ?>asset/js/bootstrap.js"></script>
 </body>
-
 </html>
