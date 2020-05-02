@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
   <link rel="icon" type="image/ico" href="<?php echo base_url(); ?>asset/image/icon-bar.png"/>
 
-  <title>Layanan | Eyecare</title>
+  <title>FAQ | Eyecare</title>
   <link rel="icon" type="image/ico" href="assets/eyecare-logo-blue.png"/>
 </head>
 <body>
@@ -51,16 +51,7 @@
 
         <h3>Melakukan Perjanjian dengan dokter spesialis</h3>
         <p style = "text-align: justify" class="text"> Perjanjian dengan dokter spesialis dapat dilakukan, baik secara langsung (pasien datang langsung ke klinik EyeCare untuk melakukan perjanjian pertemuan dengan dokter spesialis) maupun melakukan perjanjian secara tidak langsung dengan melalui telepon. Petugas akan membuatkan janji dengan dokter spesialis yang dipilih oleh pasien, sesuai dengan jadwal praktek dokter spesialis tersebut. Pasien bisa datang pada waktu yang telah disepakati dalam pejanjian tersebut untuk bertemu dengan dokter spesialis yang dimaksud. Perjanjian dapat dilakukan via telephone dengan menghubungi klinik EyeCare terdekat</p>
-        
-
-
-
-
-
-
-
-        
-        
+ 
         <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
       </div>
     </div>
@@ -75,7 +66,7 @@
       <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-white.png" alt="Logo Eyecare White"></div>
       <div class="col-2">
         <ul class="footer-menu">
-          <a href="<?php echo base_url() ?>index.php/tentang" style="color:white">Tentang Kami</f> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/tentang" style="color:white">Tentang Kami</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/layanan" style="color:white">Layanan</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/cbook" style="color:white">Book Now</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/faq" style="color:white">FAQ</a>
@@ -84,8 +75,8 @@
       <div class="col-3">
         <ul class="footer-menu">
           <li>Kontak Kami</li>
-          <li>Syarat & Ketentuan</li>
-          <li>Kebijakan Privasi</li>
+          <a href="<?php echo base_url() ?>index.php/disclaimer" style="color:white">Disclaimer</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/kebijakanprivasi" style="color:white">Kebijakan Privasi</a>
         </ul>
       </div>
       <div class="col-4">
