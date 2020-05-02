@@ -18,10 +18,10 @@
       <div class="navbar-nav">
         <div class="navbar-nav">
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/layanan">Layanan</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/layanan">Layanan</a>
         <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/faq">FAQ</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/faq">FAQ</a>
       </div>
       </div>
     </div>
@@ -134,10 +134,10 @@
       <div class="col-3"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-white.png" alt="Logo Eyecare White"></div>
       <div class="col-2">
         <ul class="footer-menu">
-          <li>Tentang Kami</li>
-          <li>Layanan</li>
-          <li>Book Now</li>
-          <li>FAQ</li>
+          <a href="<?php echo base_url() ?>index.php/tentang" style="color:white">Tentang Kami</f> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/layanan" style="color:white">Layanan</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/cbook" style="color:white">Book Now</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/faq" style="color:white">FAQ</a>
         </ul>
       </div>
       <div class="col-3">
