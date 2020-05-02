@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/custom-landing-page.css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
   <link rel="icon" type="image/ico" href="<?php echo base_url(); ?>asset/image/icon-bar.png"/>
-  <title>Eyecare - Klinik Mata Kepercayaan Anda</title>
+  <title>Eyecare | Klinik Mata Kepercayaan Anda</title>
   
 </head>
 <body>
@@ -38,9 +38,8 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col align-self-center">
-        <h2>Eyecare, Klinik mata kepercayaan anda</h2>
-        <p class="subtext mt-4">Di Klinik kami pasien adalah prioritas utama kami.  Dokter kami adalah para dokter mata terbaik di Indonesia dengan pengalaman bertahun-tahun dalam bidang keahliannya masing-masing.</p>
-        <p class="subtext">Dilengkapi dengan teknologi terdepan dalam layanan kesehatan mata di Indonesia.</p>
+        <h2>EyeCare, Klinik mata kepercayaan anda</h2>
+        <p class="subtext mt-4">Di Klinik EyeCare yang hadir di Bandung dan Jakarta , pasien adalah prioritas utama kami.  Dokter kami adalah para dokter mata terbaik di Indonesia dengan pengalaman bertahun-tahun dalam bidang keahliannya masing-masing untuk menangani berbagai gangguan mata seperti masalah di retina, katarak, LASIK, mata kering (dry eye), glaukoma, mata juling (strabismus), dan lain-lain. Dilengkapi dengan teknologi terdepan dalam layanan kesehatan mata di Indonesia, kami akan melayani dan menangani masalah kesehatan mata Anda dengan layanan sepenuh hati.</p>
         <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
       </div>
       <div class="col">
@@ -65,8 +64,8 @@
       <div class="col-3">
         <ul class="footer-menu">
           <li>Kontak Kami</li>
-          <li>Syarat & Ketentuan</li>
-          <li>Kebijakan Privasi</li>
+          <a href="<?php echo base_url() ?>index.php/disclaimer" style="color:white">Disclaimer</a> <br> <br>
+          <a href="<?php echo base_url() ?>index.php/kebijakanprivasi" style="color:white">Kebijakan Privasi</a>
         </ul>
       </div>
       <div class="col-4">
