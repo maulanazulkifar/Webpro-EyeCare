@@ -19,8 +19,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/layanan">Layanan</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/layanan">Layanan</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/faq">FAQ</a>
       </div>
