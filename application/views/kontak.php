@@ -8,9 +8,8 @@
   <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/custom-landing-page.css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
   <link rel="icon" type="image/ico" href="<?php echo base_url(); ?>asset/image/icon-bar.png"/>
-
-  <title>Layanan | Eyecare</title>
-  <link rel="icon" type="image/ico" href="assets/eyecare-logo-blue.png"/>
+  <title>Kontak Kami | Klinik Mata Kepercayaan Anda</title>
+  
 </head>
 <body>
 <nav class="navbar navbar-expand-lg sticky-top">
@@ -20,7 +19,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/tentang">Tentang Kami</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/layanan">Layanan</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/layanan">Layanan</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/faq">FAQ</a>
       </div>
@@ -28,7 +27,7 @@
     <div class="d-flex justify-content-end">
       <div class="align-self-center">
         <!-- <a href="login.php" class="btn-masuk">Masuk</a> -->
-        <a href="<?php echo base_url() ?>index.php/clogin"><button class="btn btn-masuk" >Masuk</button></a>
+        <a href="<?php echo base_url('index.php/clogin') ?>"><button class="btn btn-masuk">Masuk</button></a>
       </div>
       <a href="<?php echo base_url() ?>index.php/cregist"><button class="btn btn-primary">Daftar</button></a>
     </div>
@@ -39,17 +38,19 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col align-self-center">
-        <h2>Layanan EyeCare</h2>
-        <p class="text mt-4"> EyeCare merupakan salah satu jaringan rumah sakitmata/klinik mata terbesar di Indonesia. Kami berkomitmen untuk menyediakan layanan mata dengan kualitas terbaik dengan suasana yang nyaman dan bersahabat. Visi kami adalah menjadi panutan pelayanan kesehatan berstandar internasional. Misi kami adalah senantiasa berupaya untuk memberikan pengobatan dan pelayanan pasien dengan kualitas terbaik oleh para professional yang cakap di bidangnya dengan etika yang tinggi. Di EyeCare, kami akan melakukan upaya yang terbaik agar Anda atau orang yang Anda kasihi akan mendapat perawatan terbaik sebelum, selama, dan setelah pengobatan.</p>
-        <p class="text">EyeCare menyediakan layanan mata terpadu. Selain memiliki tim dokter mata yang sangat berpengalaman dan dilengkapi dengan teknologi diagnostik, pengobatan dan operasi terbaru dalam layanan kesehatan mata, kami juga memiliki klinik rawat jalan, layanan rawat sehari (one-day care), serta rawat inap untuk operasi.</p>
-        <p class="subtext"> Staf kami di EyeCare menantikan kehadiran Anda!</p>
-        <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
+        <h2>Kontak Kami</h2>
+        <br>
+        <h3> <img src = "<?php echo base_url(); ?>asset/image/phone.png" width="30" height="30" >  Call Center </h3>
+        <p class="text"> (021) 783 523 xxx </p>
+
+        <h3> <img src = "<?php echo base_url(); ?>asset/image/mobile.png" width="35" height="35" > SMS Center </h3>
+        <p class="text"> 0897 555 xxx </p>
+ 
+    
       </div>
     </div>
   </div>
 </section>
-
-
 
 <section class="footer">
   <div class="container">

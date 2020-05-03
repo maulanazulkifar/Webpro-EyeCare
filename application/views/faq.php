@@ -74,7 +74,7 @@
       </div>
       <div class="col-3">
         <ul class="footer-menu">
-          <li>Kontak Kami</li>
+          <a href="<?php echo base_url() ?>index.php/kontak" style="color:white">Kontak Kami</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/disclaimer" style="color:white">Disclaimer</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/kebijakanprivasi" style="color:white">Kebijakan Privasi</a>
         </ul>
