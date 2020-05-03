@@ -17,15 +17,15 @@
     <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active align-self-center" href="#">Home</a>
-        <a class="nav-item nav-link align-self-center" href="#">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="#">Layanan</a>
-        <a class="nav-item nav-link align-self-center" href="#">Book Now</a>
-        <a class="nav-item nav-link align-self-center" href="#">FAQ</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/">Home</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/layanan">Layanan</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/faq">FAQ</a>
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <a href=""><button class="btn btn-danger">Logout</button></a>
+      <a href="<?php echo base_url() ?>pasien/c_pasien/logout"><button class="btn btn-danger">Logout</button></a>
     </div>
   </div>
 </nav>

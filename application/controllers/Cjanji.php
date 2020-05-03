@@ -29,7 +29,7 @@ class Cjanji extends CI_Controller{
 		'jadwal'=>$jadwal
 		);
 		$this->M_pasien->input_data($data,'pasien');
-		redirect('Cjanji/index');
+		echo "<script>alert('Janji Telah Dibuat');history.go(-1);</script>";	
 	}
 }	
 ?>

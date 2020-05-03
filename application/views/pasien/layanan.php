@@ -8,30 +8,28 @@
   <link rel="stylesheet" href="<?php echo base_url() ?>asset/css/custom-landing-page.css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
   <link rel="icon" type="image/ico" href="<?php echo base_url(); ?>asset/image/icon-bar.png"/>
-  <title>Disclaimer | Klinik Mata Kepercayaan Anda</title>
-  
+
+  <title>Layanan | Eyecare</title>
+  <link rel="icon" type="image/ico" href="assets/eyecare-logo-blue.png"/>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg sticky-top">
-  <div class="container">
+ <div class="container">
     <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <div class="navbar-nav">
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>welcome">Home</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>layanan">Layanan</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>cbook">Book Now</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>faq">FAQ</a>
+       <div class="navbar-nav">
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/">Home</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/layanan">Layanan</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/faq">FAQ</a>
       </div>
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <div class="align-self-center">
-        <!-- <a href="login.php" class="btn-masuk">Masuk</a> -->
-        <a href="<?php echo base_url() ?>clogin"><button class="btn btn-masuk" >Masuk</button></a>
-      </div>
-      <a href="<?php echo base_url() ?>cregist"><button class="btn btn-primary">Daftar</button></a>
+      <div class="d-flex justify-content-end">
+      <a href="<?php echo base_url() ?>pasien/c_pasien/logout"><button class="btn btn-danger">Logout</button></a>
     </div>
   </div>
 </nav>
@@ -40,16 +38,17 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col align-self-center">
-        <h2 style="text-align:center">Disclaimer</h2>
-        <br>
-        <h3> Ketentuan </h3>
-        <p style = "text-align: justify" class="text"> Klinik EyeCare merupakan salah satu jaringan klinik spesialis mata terbesar di Indonesia yang dihadirkan khusus bagi Anda yang membutuhkan pelayanan kesehatan mata yang nyaman dan terpercaya. Jika Anda mengakses website ini, Anda dianggap menyetujui syarat dan ketentuan yang ditetapkan di bawah. Sebelumnya bacalah dokumen ini dengan cermat sebelum membaca atau mengakses situs dan layanan situs ini. Jika Anda tidak ingin terikat dengan syarat dan ketentuan ini, Anda tidak dapat melanjutkan mengakses situs ini.</p>
- 
+        <h2>Layanan EyeCare</h2>
+        <p class="text mt-4"> EyeCare merupakan salah satu jaringan rumah sakitmata/klinik mata terbesar di Indonesia. Kami berkomitmen untuk menyediakan layanan mata dengan kualitas terbaik dengan suasana yang nyaman dan bersahabat. Visi kami adalah menjadi panutan pelayanan kesehatan berstandar internasional. Misi kami adalah senantiasa berupaya untuk memberikan pengobatan dan pelayanan pasien dengan kualitas terbaik oleh para professional yang cakap di bidangnya dengan etika yang tinggi. Di EyeCare, kami akan melakukan upaya yang terbaik agar Anda atau orang yang Anda kasihi akan mendapat perawatan terbaik sebelum, selama, dan setelah pengobatan.</p>
+        <p class="text">EyeCare menyediakan layanan mata terpadu. Selain memiliki tim dokter mata yang sangat berpengalaman dan dilengkapi dengan teknologi diagnostik, pengobatan dan operasi terbaru dalam layanan kesehatan mata, kami juga memiliki klinik rawat jalan, layanan rawat sehari (one-day care), serta rawat inap untuk operasi.</p>
+        <p class="subtext"> Staf kami di EyeCare menantikan kehadiran Anda!</p>
         <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
       </div>
     </div>
   </div>
 </section>
+
+
 
 <section class="footer">
   <div class="container">
@@ -65,7 +64,7 @@
       </div>
       <div class="col-3">
         <ul class="footer-menu">
-          <li>Kontak Kami</li>
+          <a href="<?php echo base_url() ?>index.php/kontak" style="color:white">Kontak Kami</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/disclaimer" style="color:white">Disclaimer</a> <br> <br>
           <a href="<?php echo base_url() ?>index.php/kebijakanprivasi" style="color:white">Kebijakan Privasi</a>
         </ul>

@@ -17,19 +17,17 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <div class="navbar-nav">
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/layanan">Layanan</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/faq">FAQ</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/">Home</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/layanan">Layanan</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/faq">FAQ</a>
       </div>
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <div class="align-self-center">
-        <a href="<?php echo base_url() ?>index.php/clogin"><button class="btn btn-masuk" >Masuk</button></a>
-      </div>
-      <a href="<?php echo base_url() ?>index.php/cregist"><button class="btn btn-primary">Daftar</button></a>
+      <div class="d-flex justify-content-end">
+      <a href="<?php echo base_url() ?>pasien/c_pasien/logout"><button class="btn btn-danger">Logout</button></a>
     </div>
   </div>
 </nav>
@@ -93,10 +91,11 @@
             <label for="pilih-dokter">Nama Dokter</label>
             <select class="form-control" id="pilih-dokter" name="dokter">
               <option>-- Silahkan pilih dokter -- </option>
-              <option>dr. Uvuvwewewe, SpM</option>
-              <option>dr. Onyetenyevwe, SpM</option>
-              <option>dr. Ugwemubwem, SpM</option>
-              <option>dr. Ossas, SpM</option>
+              <?php 
+                $no = 1;
+                foreach($dokter as $d) {?>
+              <option><?php echo $d->nama ?></option>
+            <?php } ?>
             </select>
           </div>
         </div>
