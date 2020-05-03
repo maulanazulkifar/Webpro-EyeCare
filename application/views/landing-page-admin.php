@@ -24,7 +24,7 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin">Data Dokter</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin_janji">Data Janji</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/#">Data User</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/#">Data Akun</a>
       </div>
     </div>
     <div class="d-flex justify-content-end">
