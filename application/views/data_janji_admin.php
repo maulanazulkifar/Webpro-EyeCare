@@ -22,8 +22,8 @@
     <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin">Data Dokter</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin_janji">Data Janji</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin">Data Dokter</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin_janji">Data Janji</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/#">Data User</a>
       </div>
     </div>
@@ -37,19 +37,19 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col text-center">
-        <h3 class="">Data Dokter</h3>
+        <h3 class="">Data Janji Pasien</h3>
       </div>
     </div>
     <div class="row d-flex justify-content-end mt-5">
       <!-- Modal Trigger -->
-      <button class="btn btn-tambah" data-toggle="modal" data-target="#tambahDokter">Tambah Dokter</button>
+      <button class="btn btn-tambah" data-toggle="modal" data-target="#tambahJanji">Tambah Janji</button>
 
       <!-- Modal -->
-      <div class="modal fade" id="tambahDokter">
+      <div class="modal fade" id="tambahJanji">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Form Tambah Dokter</h5>
+              <h5 class="modal-title">Form Tambah Data Janji</h5>
               <button type="button" class="close" data-dismiss="modal">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -57,20 +57,28 @@
             <form action="">
               <div class="modal-body">
                 <div class="form-group">
-                  <label for="name">Nama Dokter</label>
+                  <label for="name">Pasien</label>
+                  <input type="text" class="form-control" id="namapasien">
+                </div>
+                <div class="form-group">
+                  <label for="name">Usia</label>
+                  <input type="text" class="form-control" id="usia">
+                </div>
+                <div class="form-group">
+                  <label for="name">No. Telfon</label>
+                  <input type="text" class="form-control" id="notelp">
+                </div>
+                <div class="form-group">
+                  <label for="name">Keluhan</label>
+                  <input type="text" class="form-control" id="keluhan">
+                </div>
+                <div class="form-group">
+                  <label for="name">Dokter</label>
                   <input type="text" class="form-control" id="namadokter">
                 </div>
                 <div class="form-group">
-                  <label for="name">Jadwal 1</label>
-                  <input type="text" class="form-control" id="jadwal1">
-                </div>
-                <div class="form-group">
-                  <label for="name">Jadwal 2</label>
-                  <input type="text" class="form-control" id="jadwal2">
-                </div>
-                <div class="form-group">
-                  <label for="name">Jadwal 3</label>
-                  <input type="text" class="form-control" id="jadwal3">
+                  <label for="name">Jadwal</label>
+                  <input type="text" class="form-control" id="jadwal">
                 </div>
               </div>
               <div class="modal-footer">
@@ -82,36 +90,40 @@
       </div>
     </div>
     <div class="row mt-3">
-      <table class="table table-bordered">
+      <table class="table  table-bordered">
         <thead class="thead-light">
           <tr>
           <th scope="col">Id</th>
-            <th scope="col">Nama</th>
-            <th scope="col">Jadwal 1</th>
-            <th scope="col">Jadwal 2</th>
-            <th scope="col">Jadwal 3</th>
+            <th scope="col">Pasien</th>
+            <th scope="col">Usia</th>
+            <th scope="col">No. Telfon</th>
+            <th scope="col">Keluhan</th>
+            <th scope="col">Dokter</th>
+            <th scope="col">Jadwal</th>
             <th scope="col" colspan="2" class="text-center">Aksi</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1</td>
+            <td>Jamet Ganggu</td>
+            <td>19 tahun</td>
+            <td>081234567890</td>
+            <td>Mata saya ketusuk rambut cetar saya dok.. jadinya bengkak</td>
             <td>dr. Uvuvwewewe, SpM</td>
             <td>Senin: 16:00-18:00 WIB</td>
-            <td>Kamis: 16:00-18:00 WIB</td>
-            <td>Jumat: 16:00-18:00 WIB</td>
             <td class="text-center"><button class="btn btn-danger">Hapus</button></td>
             <td>
               <div class="d-flex justify-content-center">
                 <!-- Modal Trigger -->
-                <button class="btn btn-info d-flex justify-content-center" data-toggle="modal" data-target="#editDokter">Edit</button>
+                <button class="btn btn-info d-flex justify-content-center" data-toggle="modal" data-target="#editJanji">Edit</button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="editDokter">
+                <div class="modal fade" id="editJanji">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title">Form Edit Data Dokter</h5>
+                        <h5 class="modal-title">Form Edit Data Janji</h5>
                         <button type="button" class="close" data-dismiss="modal">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -119,20 +131,28 @@
                       <form action="">
                         <div class="modal-body">
                           <div class="form-group">
-                            <label for="name">Nama Dokter</label>
+                            <label for="name">Pasien</label>
+                            <input type="text" class="form-control" id="namapasien" value="Jamet Ganggu">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Usia</label>
+                            <input type="text" class="form-control" id="usia" value="19 tahun">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">No. Telfon</label>
+                            <input type="text" class="form-control" id="notelp" value="081234567890">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Keluhan</label>
+                            <input type="text" class="form-control" id="keluhan" value="Mata saya ketusuk rambut cetar saya dok.. jadinya bengkak">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Dokter</label>
                             <input type="text" class="form-control" id="namadokter" value="dr. Uvuvwewewe, SpM">
                           </div>
                           <div class="form-group">
-                            <label for="name">Jadwal 1</label>
-                            <input type="text" class="form-control" id="jadwal1" value="Senin: 16:00-18:00 WIB">
-                          </div>
-                          <div class="form-group">
-                            <label for="name">Jadwal 2</label>
-                            <input type="text" class="form-control" id="jadwal2" value="Kamis: 16:00-18:00 WIB">
-                          </div>
-                          <div class="form-group">
-                            <label for="name">Jadwal 3</label>
-                            <input type="text" class="form-control" id="jadwal3" value="Jumat: 16:00-18:00 WIB">
+                            <label for="name">Jadwal</label>
+                            <input type="text" class="form-control" id="jadwal" value="Senin: 16:00-18:00 WIB">
                           </div>
                         </div>
                         <div class="modal-footer">
