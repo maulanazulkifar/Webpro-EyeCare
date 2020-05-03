@@ -10,12 +10,12 @@ class C_admin extends CI_Controller {
 	}
 	public function index() {
 		$data['email'] = $this->session->userdata('email');
-		$this->load->view('book', $data);
+		$this->load->view('landing-page-admin', $data);
 	}
 
 	public function logout() {
-		$this->session->unset_userdata('email');
-		$this->session->unset_userdata('role');
+		$this->session->unset_userdata('username');
+		$this->session->unset_userdata('level');
 		session_destroy();
 		redirect('auth');
 	}

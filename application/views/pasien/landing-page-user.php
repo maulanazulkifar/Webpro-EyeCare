@@ -17,8 +17,8 @@
     <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active align-self-center" href="landing-page.php">Home</a>
-        <a class="nav-item nav-link align-self-center" href="tentang.php">Tentang Kami</a>
+        <a class="nav-item nav-link active align-self-center" href="#">Home</a>
+        <a class="nav-item nav-link align-self-center" href="#">Tentang Kami</a>
         <a class="nav-item nav-link align-self-center" href="#">Layanan</a>
         <a class="nav-item nav-link align-self-center" href="#">Book Now</a>
         <a class="nav-item nav-link align-self-center" href="#">FAQ</a>
@@ -35,9 +35,8 @@
     <div class="row mt-5">
       <div class="col align-self-center">
         <h2>Eyecare, Klinik mata kepercayaan anda</h2>
-        <p class="subtext">Di Klinik kami pasien adalah prioritas utama kami.  Dokter kami adalah para dokter mata terbaik di Indonesia dengan pengalaman bertahun-tahun dalam bidang keahliannya masing-masing.</p>
-        <p class="subtext">Dilengkapi dengan teknologi terdepan dalam layanan kesehatan mata di Indonesia.</p>
-        <a href="regist.php"><button class="btn btn-primary ">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png" alt="Arrow"></button></a>
+        <p class="subtext mt-4">Di Klinik EyeCare yang hadir di Bandung dan Jakarta , pasien adalah prioritas utama kami.  Dokter kami adalah para dokter mata terbaik di Indonesia dengan pengalaman bertahun-tahun dalam bidang keahliannya masing-masing untuk menangani berbagai gangguan mata seperti masalah di retina, katarak, LASIK, mata kering (dry eye), glaukoma, mata juling (strabismus), dan lain-lain. Dilengkapi dengan teknologi terdepan dalam layanan kesehatan mata di Indonesia, kami akan melayani dan menangani masalah kesehatan mata Anda dengan layanan sepenuh hati.</p>
+        <a href="<?php echo base_url() ?>index.php/cbook"><button class="btn btn-primary mt-4">Book Now <img class="panah" src="<?php echo base_url(); ?>asset/image/arrow-right.png"  alt="Arrow"></button></a>
       </div>
       <div class="col">
         <img src="<?php echo base_url(); ?>asset/image/images-1.png" alt="Photo by Daniil Kuželev at Unsplash.com">
