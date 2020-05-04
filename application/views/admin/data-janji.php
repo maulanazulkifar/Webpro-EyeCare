@@ -22,8 +22,8 @@
     <a href="#"><img src="<?php echo base_url(); ?>asset/image/eyecare-logo-blue.png" alt="Logo" class="logo"></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin">Data Dokter</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin/janji">Data Janji</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin">Data Dokter</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin/janji">Data Janji</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/Admin/c_admin/data_user">Data User</a>
       </div>
     </div>

@@ -21,8 +21,8 @@
         <div class="navbar-nav">
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>welcome">Home</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>layanan">Layanan</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>cbook">Book Now</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>layanan">Layanan</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>cbook">Book Now</a>
         <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>faq">FAQ</a>
       </div>
       </div>
