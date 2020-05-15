@@ -7,6 +7,7 @@ class C_pasien extends CI_Controller {
 			redirect('auth');
 		}
 		$this->load->helper('text');
+		$this->load->model('dokter_model');
 	}
 	public function index() {
 		$data['email'] = $this->session->userdata('email');
@@ -19,5 +20,34 @@ class C_pasien extends CI_Controller {
 		session_destroy();
 		redirect('auth');
 	}
+
+
+	public function book()
+  	{
+   		$this->load->view('pasien/book');
+  	}
+
+  	public function janji()
+  	{
+  		$data['dokter'] = $this->dokter_model->tampil_data()->result();
+   		$this->load->view('pasien/form-janji',$data);
+  	}
+
+  	public function tentang()
+  	{
+   		$this->load->view('pasien/tentang');
+  	}
+
+  	public function layanan()
+  	{
+   		$this->load->view('pasien/layanan');
+  	}
+
+  	public function faq()
+  	{
+   		$this->load->view('pasien/faq');
+  	}
+
+
 }
 ?>

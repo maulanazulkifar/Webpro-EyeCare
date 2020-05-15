@@ -19,20 +19,17 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <div class="navbar-nav">
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>welcome">Home</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>layanan">Layanan</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>cbook">Book Now</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>faq">FAQ</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/">Home</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/layanan">Layanan</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/faq">FAQ</a>
       </div>
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <div class="align-self-center">
-        <!-- <a href="login.php" class="btn-masuk">Masuk</a> -->
-        <a href="<?php echo base_url() ?>clogin"><button class="btn btn-masuk" >Masuk</button></a>
-      </div>
-      <a href="<?php echo base_url() ?>cregist"><button class="btn btn-primary">Daftar</button></a>
+     <div class="d-flex justify-content-end">
+      <a href="<?php echo base_url() ?>pasien/c_pasien/logout"><button class="btn btn-danger">Logout</button></a>
     </div>
   </div>
 </nav>

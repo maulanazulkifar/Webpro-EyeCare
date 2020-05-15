@@ -17,20 +17,16 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <div class="navbar-nav">
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome">Home</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/tentang">Tentang Kami</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/layanan">Layanan</a>
-        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>index.php/cbook">Book Now</a>
-        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>index.php/welcome/faq">FAQ</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/">Home</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/tentang">Tentang Kami</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/layanan">Layanan</a>
+        <a class="nav-item nav-link active align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/book">Book Now</a>
+        <a class="nav-item nav-link align-self-center" href="<?php echo base_url() ?>pasien/c_pasien/faq">FAQ</a>
       </div>
       </div>
     </div>
     <div class="d-flex justify-content-end">
-      <div class="align-self-center">
-        <!-- <a href="login.php" class="btn-masuk">Masuk</a> -->
-        <a href="<?php echo base_url() ?>index.php/clogin"><button class="btn btn-masuk" >Masuk</button></a>
-      </div>
-      <a href="<?php echo base_url() ?>index.php/cregist"><button class="btn btn-primary">Daftar</button></a>
+      <a href="<?php echo base_url() ?>pasien/c_pasien/logout"><button class="btn btn-danger">Logout</button></a>
     </div>
   </div>
 </nav>
@@ -45,7 +41,7 @@
           <h2>Buat janji dengan dokter via Online</h2>
           <p class="subtext mt-4">Salah satu keunggulan dari klinik kami yaitu, dapat membuat janji temu dengan dokter tanpa harus datang ke klinik kami.</p>
           <p class="subtext">Anda hanya perlu memilih dokter dan jadwal yang sesuai dengan waktu anda. Lalu datang ke klinik sesuai dengan yang sudah anda tentukan.</p>
-          <a href="<?php echo base_url() ?>index.php/cjanji"><button class="btn btn-primary mt-4">Buat janji sekarang</button></a>
+          <a href="<?php echo base_url() ?>pasien/c_pasien/janji"><button class="btn btn-primary mt-4">Buat janji sekarang</button></a>
         </div>
       </div>
   </div>

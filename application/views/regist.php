@@ -16,28 +16,28 @@
       <div class="card position-absolute" style="width: 408px">
         <div class="card-body">
           <h3 class="text-center">Silahkan daftar untuk buat Akun</h3>
-          <form action="">
+          <form action="<?php echo base_url(). 'Cregist/regist_aksi'; ?>" method="post">
             <div class="form-group-1">
               <label for="name">Nama Lengkap</label>
-              <input type="text" class="form-control" id="name" Placeholder="Jamet Kejam">
+              <input type="text" class="form-control" name="nama" id="name" Placeholder="Jamet Kejam">
             </div>
             <div class="form-group-2">
               <label for="email">E-mail</label>
-              <input type="email" class="form-control" id="email" Placeholder="jametganggu@gmail.com">
+              <input type="email" class="form-control" name="email" id="email" Placeholder="jametganggu@gmail.com">
             </div>
             <div class="form-group-3">
               <label for="password">Password</label>
-              <input type="password" class="form-control" id="password" Placeholder="6+ karakter">
+              <input type="password" class="form-control" name="password" id="password" Placeholder="6+ karakter">
             </div>
             <div class="terms text-center">
               <p>Dengan mendaftar untuk membuat akun.  Saya menyetujui <strong>Syarat Penggunaan</strong>  dan <strong>Kebijakan Pribadi.</strong></p>
             </div>
             <div class="d-flex justify-content-end">
-              <div class="align-self-center"><a href="<?php echo base_url() ?>index.php/welcome" class="btn-kembali">Kembali</a></div>
+              <div class="align-self-center"><a href="<?php echo base_url() ?>welcome" class="btn-kembali">Kembali</a></div>
               <button type="submit" class="btn btn-primary">Daftar</button>
             </div>
             <div class="d-flex justify-content-end">
-              <a href="<?php echo base_url() ?>index.php/clogin" class="btn-masuk-2">Sudah punya akun ? Masuk di sini</a>
+              <a href="<?php echo base_url() ?>clogin" class="btn-masuk-2">Sudah punya akun ? Masuk di sini</a>
             </div>
           </form>
         </div>
